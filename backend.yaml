@@ -1,0 +1,6 @@
+- name: this is for backend role
+  hosts: backend
+  become: yes
+  roles:
+  - backend
+  
