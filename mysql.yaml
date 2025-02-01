@@ -1,4 +1,5 @@
 - name: mysql file  file to call yaml
   hosts: mysql 
+  become: yes #remote server
   roles:
   - mysql
