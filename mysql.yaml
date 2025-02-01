@@ -1,0 +1,4 @@
+- name: mysql file  file to call yaml
+  hosts: mysql 
+  roles:
+  - mysql
